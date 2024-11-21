@@ -62,11 +62,11 @@ import (
 	//                          vvvvvvvvvvvvvv                          //
 	//                               vvvv                               //
 
-	_ "github.com/FloatTech/ZeroBot-Plugin/custom"                  // 自定义插件合集
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ahsai"            // ahsai tts
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aifalse"          // 服务器监控
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/emojimix"         // 合成emoji
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/mcfish"           // 钓鱼模拟器
+	_ "github.com/FloatTech/ZeroBot-Plugin/custom"          // 自定义插件合集
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ahsai"    // ahsai tts
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aifalse"  // 服务器监控
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/emojimix" // 合成emoji
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/mcfish"   // 钓鱼模拟器
 
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/wtf"           // 鬼东西
 
@@ -172,7 +172,7 @@ func init() {
 	}
 
 	// 通过代码写死的方式添加主人账号
-	 sus = append(sus, 2358400184)
+	sus = append(sus, 2358400184)
 	// sus = append(sus, 87654321)
 
 	// 启用 webui
